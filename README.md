@@ -64,8 +64,10 @@ Visit `<ec2-Public IPv4 DNS>:8080` in your web browser to access the Jenkins UI 
 ### Step 6: Create 1st Jenkins job
 Create a Jenkins job for running docker-compose on the EC2 instance. Add the GitHub repository URL and credentials, then execute the following command in the Jenkins job's shell:
 
-```bash
+
 Create a Jenkins job for running docker-compose on the EC2 instance. Add the GitHub repository URL and credentials, then execute the following command in the Jenkins job's shell:
+```bash
+ansible-playbook playbook-dcompose.yml
 ```
 ### step 7: Configure GitHub Webhook for Jenkins
 1- In your GitHub repository, go to "Settings" -> "Webhooks" -> "Add webhook."
