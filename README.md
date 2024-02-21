@@ -69,9 +69,13 @@ Create a Jenkins job for running docker-compose on the EC2 instance. Add the Git
 ```
 ### step 7: Configure GitHub Webhook for Jenkins
 1- In your GitHub repository, go to "Settings" -> "Webhooks" -> "Add webhook."
+
 2- Set the Payload URL to `<JENKINS_URL>/github-webhook/.`
+
 3- Set the Content type to "application/json."
+
 4- Set the webhook events to "Just the push event."
+
 5- Ensure the webhook is active and save.
 
 ### Step 8: Update Composer in PHP-Apache Container
