@@ -24,7 +24,7 @@ Terraform scripts automate the provisioning of infrastructure, specifically for 
 
 Jenkins serves as the automation hub for deploying the Laravel application.
 ## App structure
-![DevOps cycle](https://drive.google.com/file/d/1dNuTfyW8Kt5rKQ6yYSvUx8uTAHqOrB39/view?usp=sharing)
+![DevOps cycle](./DevOps-cycle.png)
 
 ## Setup Instructions:
 
