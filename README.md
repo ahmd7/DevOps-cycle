@@ -65,7 +65,6 @@ Visit `<ec2-Public IPv4 DNS>:8080` in your web browser to access the Jenkins UI 
 Create a Jenkins job for running docker-compose on the EC2 instance. Add the GitHub repository URL and credentials, then execute the following command in the Jenkins job's shell:
 
 
-Create a Jenkins job for running docker-compose on the EC2 instance. Add the GitHub repository URL and credentials, then execute the following command in the Jenkins job's shell:
 ```bash
 ansible-playbook playbook-dcompose.yml
 ```
